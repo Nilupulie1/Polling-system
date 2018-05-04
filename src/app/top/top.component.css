@@ -1,0 +1,89 @@
+/*Style the top brand navigation bar*/
+ul {
+  list-style-type:  none;
+  margin:           0;
+  padding:          0;
+  overflow:         hidden;
+  background-color: black;
+}
+
+
+li {
+  float: left;
+}
+
+
+/*Style the links*/
+li a {
+  display:         block;
+  color:           white;
+  text-align:      center;
+  padding:         14px 16px;
+  text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+.contact_icon:hover {
+  color:  #55acee;
+  /*font-weight: 100;*/
+}
+/*Styling icons*/
+.icon{
+  color:  #55acee;
+
+}
+
+/*Styling icon hovers*/
+.fa-facebook:hover{
+  color: #3b5998;
+}
+
+.fa-twitter:hover{
+  color: #55acee;
+}
+
+.fa-google-plus:hover{
+  color:  #d63031;
+}
+
+.fa-instagram:hover{
+  color: #fc5c65;
+}
+
+#brand_nav_main{
+  width:100%;
+  /*height: 350px;*/
+}
+
+#brand_nav_main{
+  position: relative;
+  left: 0;
+}
+
+/*Placing contact icons*/
+.navbar-right{
+  position: relative;
+  right: 4%;
+}
+
+/*Placing brand icons*/
+.brands{
+  position: relative;
+  left: 3%;
+}
+
+
+#top_contact{
+  position: relative;
+  left: 20%;
+}
+
+#top_phone{
+  position: relative;
+  left: 20%;
+}
+
+/*.fa{*/
+  /*!*font-weight: 100;*!*/
+/*}*/
