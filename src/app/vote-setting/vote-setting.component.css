@@ -1,0 +1,12 @@
+.vote_setting{
+  height: 10%;
+  /*background-color: #B0BED9;*/
+  width: 100%;
+}
+option{
+font-size: 14px;
+}
+label{
+  font-weight: 500;
+  color: #00aeef;
+}

@@ -1,0 +1,46 @@
+<div class="create">
+  <form action="/action_page.php">
+    <label for="fname">Question / Discription</label>
+
+
+    <input type="text" id="fname" name="firstname" placeholder="Question / Discription here...">
+    <!--<input type='file' />-->
+    <!--<img id="myImg" src="#" alt="your image" />-->
+    <input type='file' onchange="readURL(this);" />
+    <img id="blah" src="#" alt="your image" />
+
+
+    <div class="checkboxes">
+      <input type="checkbox" name="vehicle" > allow to users<br>
+      <input type="checkbox" name="vehicle" >block repeat voting <br>
+      <input type="checkbox" name="vehicle" >close poll at a special time<br>
+      <input type="checkbox" name="vehicle" >display message after vote <br>
+      <input type="checkbox" name="vehicle" >display face book comments<br>
+      <input type="checkbox" name="vehicle" >redirect on vote<br>
+      <input type="checkbox" name="vehicle" >collect leads<br>
+      <!--<input type="checkbox" name="vehicle" > <br>-->
+      <!--<input type="submit" value="Submit">asdfff<br>-->
+    </div>
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+<!--<script>-->
+<!--$(document).ready(function (e) {-->
+<!--$("input").change(function (e) {-->
+
+<!--for (var i = 0; i < e.originalEvent.srcElement.files.length; i++) {-->
+
+<!--var file = e.originalEvent.srcElement.files[i];-->
+
+<!--var img = document.createElement("img");-->
+<!--var reader = new FileReader();-->
+<!--reader.onloadend = function () {-->
+<!--img.src = reader.result;-->
+<!--}-->
+<!--reader.readAsDataURL(file);-->
+<!--$("input").after(img);-->
+<!--}-->
+<!--});-->
+<!--});-->
+<!--</script>-->
